@@ -13,11 +13,10 @@ This is a great app for learning experience in my opinon.
    ```bash
    https://github.com/dmxt/weather-express-api.git***
 3. Grab a weather API they provided you from the first section "Sign up for API" and replace it... (step 4)
-4. Copy the API and open the folder with `weather.js`, go to line 9 or wherever and replace `API_KEY_HERE` with your API key you obtained:
+4. Copy the API and open the folder with `weather.js`, go to line 9 or wherever and replace API_KEY_HERE with your API key you copied:
 ```javascript
-const apiKey = '**API_KEY_HERE**';
+const apiKey = 'API_KEY_HERE';
 ```
-Replace the bold text with you what you copied.
 
 ## 3. Install required packages
 1. Make sure you're in same folder as `weather.js` inside terminal. 
