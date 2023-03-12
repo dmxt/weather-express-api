@@ -3,12 +3,12 @@
 This is a great app for learning experience in my opinon.
 
 ## 1. Sign up for API
-1. Sign up for Weather API at https://openweathermap.org/api 
+1. **!!IMPORTANT!!** Sign up (free) for Weather API at https://openweathermap.org/api 
 2. I chose "Pay as you call" it's for free on first 1000 API requests a day
 
 **Note:** It will take few hours for it to start working; 2.5 hours in my case. Be patient!
 
-## 2. Pull this repo and put your API
+## 2. Pull my repo and put your API
 1. Pull this repository and put it in a folder you won't forget.
 2. Grab a weather API they provided you from the first section "Sign up for API". 
 3. Copy the API and open the folder with `weather.js`, go to line 9 or wherever and replace `API_KEY_HERE` with your API key you obtained:
