@@ -3,7 +3,7 @@
 This is a great app for learning experience in my opinon.
 
 ## 1. Sign up for API
-1. **!!IMPORTANT!!** Sign up (free) for Weather API at https://openweathermap.org/api 
+1. The very first thing you need to do is sign up (free) for Weather API at https://openweathermap.org/api 
 2. I chose "Pay as you call" it's for free on first 1000 API requests a day
 
 **Note:** It will take few hours for it to start working; 2.5 hours in my case. Be patient!
@@ -34,7 +34,7 @@ If you find a two lockfiles of something you don't use, just delete it.
 
 
 # Start a server!
-1. Go tothe directort where `weather.js` was located at and tart the `weather.js` express app
+1. Go to the directory where `weather.js` was located at and tart the `weather.js` express app
 ```bash
 node weather.js
 ```
