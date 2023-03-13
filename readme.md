@@ -11,7 +11,7 @@ This is a great app for learning experience in my opinon.
 ## 2. Pull my repo and put your API
 1. Pull this repository and put it in a folder you won't forget.
    ```bash
-   https://github.com/dmxt/weather-express-api.git***
+   https://github.com/dmxt/weather-express-api.git
 3. Grab a weather API they provided you from the first section "Sign up for API" and replace it... (step 4)
 4. Copy the API and open the folder with `weather.js`, go to line 9 or wherever and replace API_KEY_HERE with your API key you copied:
 ```javascript
