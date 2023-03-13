@@ -44,7 +44,7 @@ The console output will provide some example and tips after you run `node weathe
 * If your city or state have a space, replace the space with `%20`
 
 ## Conclusion
-If you have any question, shoot me a message on issues and I'll my best to get back to you as soon as possible. :-)
+If you have any question, shoot me a message on issues, and I'll my best to get back to you as soon as possible. :-)
 
 ### Credits
 OpenGPT helped tremendously for me to get started by asking how to start a weather app, and it gave me useful information including a link to an API.
