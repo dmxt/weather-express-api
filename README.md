@@ -48,6 +48,8 @@ or use `curl` in command line to get a temperature information.
 
 Go to the command line where you started a server and press Ctrl+C
 
+---
+
 ### Tips
 
 1. You can change the (or curl) URL to any cities and it's not case-sensitive.
@@ -62,4 +64,4 @@ If you have any question, make a new issue on GitHub repository, and I will to g
 ### Credits
 
 OpenGPT helped tremendously for me to get started by asking how to start a weather app, and it gave me useful
-information regarding how to build an app (nothing direct, but a good start) and included a link to an API.
+information regarding how to build an app (nothing direct, but a good start) and included a link to an API.**
