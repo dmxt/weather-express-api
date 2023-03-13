@@ -10,7 +10,6 @@ This is a great express.js app for a learning experience.
 still not ready, the app will return an error fetching information.
 
 ## 2. Pull my repo and put your API
-
 1. Clone this repository and put it in a folder you won't forget.
    ```bash
    git clone https://github.com/dmxt/weather-express-api.git
@@ -20,8 +19,7 @@ const apiKey = 'API_KEY_HERE';
 ```
 
 ## 3. Install required packages
-
-1. Install two packages `axios` `express` with either npm or yarn but not both.
+Install two packages `axios` `express` with either npm or yarn but not both.
 
 `npm install axios express`
 
