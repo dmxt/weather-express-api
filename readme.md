@@ -8,9 +8,12 @@ This is a great app for learning experience in my opinon.
 
 **Note:** It will take few hours for it to start working; 2.5 hours in my case. Be patient!
 
-## 2. Pull this repo and put your API
-1. Pull this repository and put it in a folder you won't forget.
-2. Grab a weather API they provided you from the first section "Sign up for API". 
+## 2. Clone this repo and put your API
+1. Clone this repository to your system.
+```bash 
+git clone https://github.com/dmxt/weather-express-api.git
+```
+2. Copy a weather API they provided you from the first section "Sign up for API". 
 3. Copy the API and open the folder with `weather.js`, go to line 9 or wherever and replace `API_KEY_HERE` with your API key you obtained:
 ```javascript
 const apiKey = 'API_KEY_HERE';
@@ -32,7 +35,7 @@ If you find a two lockfiles of something you don't use, just delete it.
 
 
 # Start a server!
-1. Go tothe directort where `weather.js` was located at and tart the `weather.js` express app
+1. Go to the directory where `weather.js` was located at and tart the `weather.js` express app
 ```bash
 node weather.js
 ```
