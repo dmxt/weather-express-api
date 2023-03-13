@@ -1,6 +1,6 @@
 # Weather app on express.js
 
-This is a great app for learning experience in my opinon.
+This is a great express.js app for a learning experience. 
 
 ## 1. Sign up for API
 1. The very first thing you need to do is sign up (free) for Weather API at https://openweathermap.org/api 
@@ -45,3 +45,6 @@ The console output will provide some example and tips after you run `node weathe
 
 ## Conclusion
 If you have any question, shoot me a message on issues and I'll my best to get back to you as soon as possible. :-)
+
+### Credits
+OpenGPT helped tremendously for me to get started by asking how to start a weather app, and it gave me useful information including a link to an API.
