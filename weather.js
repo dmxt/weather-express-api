@@ -6,8 +6,7 @@ const port = 3000;
 
 app.get('/temp/:city/:state', async (req, res) => {
   const { city, state } = req.params;
-  const apiKey = 'MY_API_KEY';
-  /* GUIDE: 1. Clear MY_API_KEY and replace it with your api key above like so `const apiKey = 'abcdefgh'; */
+  const apiKey = 'MY_API_KEY'; // replace MY_API_KEY with your api key
   const apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city},${state}&appid=${apiKey}&units=imperial`;
 
   try {
