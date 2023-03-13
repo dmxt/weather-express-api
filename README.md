@@ -14,9 +14,9 @@ still not ready, the app will return an error fetching information.
    ```bash
    git clone https://github.com/dmxt/weather-express-api.git
 2. Copy an API they provided you and replace it with `API_KEY_HERE` on line 9 in `weather.js`
-```javascript
-const apiKey = 'API_KEY_HERE';
-```
+   ```javascript
+      const apiKey = 'API_KEY_HERE';
+   ```
 
 ## 3. Install required packages
 Install two packages `axios` `express` with either npm or yarn but not both.
