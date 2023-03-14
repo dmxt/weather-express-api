@@ -19,7 +19,7 @@ still not ready, the app will return an error fetching information.
    ```
 
 ## 3. Install required packages
-Install two packages `axios` `express` with either npm or yarn but not both.
+Install packages with either npm or yarn, but not both.
 
 `npm install axios express`
 
@@ -37,7 +37,7 @@ anyway.
 npm start
 ```
 
-This script will run the script `node weather.js` (I set in package.json)
+This script will run the script `node weather.js` (set in package.json)
 
 The console output will provide some example and tips after you start a node server. You can open the link in a browser
 or use `curl` in command line to get a temperature information.
