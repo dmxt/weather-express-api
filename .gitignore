@@ -5,3 +5,4 @@ node_modules/
 # npm
 package-json.lock
 !yarn.lock
+/yarn.lock
