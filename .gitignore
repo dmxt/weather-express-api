@@ -6,3 +6,4 @@ node_modules/
 package-json.lock
 !yarn.lock
 /yarn.lock
+# yea i dunno how to ignore lockfiles
