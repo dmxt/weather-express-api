@@ -46,7 +46,7 @@ npm start
 ```
 or
 ```bash
-yarn start
+yarn
 ```
 
 These scripts will run the script `node weather.js` (I set up in package.json)
