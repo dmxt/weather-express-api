@@ -6,7 +6,10 @@ const port = 3000;
 
 app.get('/temp/:city/:state', async (req, res) => {
   const { city, state } = req.params;
-  const apiKey = 'MY_API_KEY'; // replace MY_API_KEY with your api key
+
+  //replace MY_API_KEY with the provided api key from https://openweathermap.org/api
+  const apiKey = 'MY_API_KEY';
+
   const apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city},${state}&appid=${apiKey}&units=imperial`;
 
   try {
@@ -31,10 +34,8 @@ app.get('/temp/:city/:state', async (req, res) => {
  */
 
 app.listen(port, () => {
-  console.log(`Server running on ${port}`)
-  console.log(``)
-  console.log(`Tips:\n1. City and state in URL is not case-sensitive.\n2. Use %20 instead of a space.`)
-  console.log(``)
+  console.log(`Server running on ${port} \n`)
+  console.log(`Tips:\n1. City and state in URL is not case-sensitive.\n2. Use %20 instead of a space. \n`)
   console.log(`Examples:`)
   console.log(`Miami, FL: http://127.0.0.1:${port}/temp/Miami/Florida`)
   console.log(`Las Vegas, NV: http://127.0.0.1:${port}/temp/Las%20Vegas/Nevada`)
