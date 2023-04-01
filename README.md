@@ -29,9 +29,11 @@ or
 
 ### Note about lockfiles
 npm and yarn lockfile don't go well together.
-If you find a two lockfiles in your directory, delete the one you don't use (or delete both) which are `yarn.lock` or `package-json.lock`. It will generate a new lockfile after running a start command with with no impact. You're not supposed to modify these lockfile files via text editor.
+If you find a two lockfiles in your directory, delete the one you don't use (or delete both) which are `yarn.lock` or `package-json.lock`. It will generate a new lockfile after running a start command with no impact. You're not supposed to modify these lockfile files via text editor.
 
 ## 4. Start a server!
+
+Make sure you have `/node_modules/` folder in your root directory before running, otherwise it will not work. If you don't have this folder, repeat step 3 or open an issue.
 
 ```bash
 npm start
@@ -46,12 +48,13 @@ These scripts will run the script `node weather.js` (I set up in package.json)
 The console output will provide some example and tips after you start a node server. You can open the link in a browser
 or use `curl` in command line to get a temperature information.
 
-### How to use curl
-It's a good method to use without a browser, just enter a commandline to get your result:
+### 4.1 How to use curl
+It's a good method to use without a browser, just enter a commandline to get your result.
+(Make sure the server is running and an API is working)
 ```bash
 curl http://127.0.0.1:3000/temp/los%20angeles/california
 ```
-(Make sure the server is running and an API is up and working)
+![sample-la.png](images/sample-curl.png)
 
 ## How to stop a server
 
