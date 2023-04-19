@@ -15,6 +15,8 @@ This instruction is for both `yarn` or `npm` users; it is your own choice to use
    ```bash
    git clone https://github.com/dmxt/weather-express-api.git
 2. **Copy an API they provided you from** https://openweathermap.org/api and replace it with `API_KEY_HERE` on line 11 in `weather.js` 
+   
+3. Replace API_KEY_HERE with the API provided to you in step 2.
    ```javascript
    const apiKey = 'API_KEY_HERE';
    ```
@@ -66,7 +68,12 @@ curl http://127.0.0.1:3000/temp/los%20angeles/california
 ```
 ![sample-la.png](images/sample-curl.png)
 
-**💡 Tip:** `%20` replaces spacebar in URL, otherwise it won't work.
+# **💡 Troubleshooting:** 
+
+Make sure you do not use spacebar in an URL. `%20` replaces spacebar in URL, otherwise it won't work.
+
+## If you see 'Error getting temperature data!' error on title
+That means your API key is not working or you just need to wait a little bit longer.
 
 ##  🛑 5. How to stop a server
 
@@ -77,19 +84,19 @@ Go to the command line where you started a server and press Ctrl+C or close an I
 ## 💡 Tips
 
 1. You can change or `curl` URL to any cities, and it's not case-sensitive.
-2. If your city or state have spaces, replace the space with `%20`. 
+2. If your city or state have one or more spaces, replace the space with `%20`.
+   
+   **For an example:**
 
-**For an example:**
-
-```bash
-http://127.0.0.1:3000/temp/los%20angeles/california
-http://127.0.0.1:3000/temp/new%20york%20city/new%20york
-```
-spacebar = `%20` in the url
+   ```bash
+   http://127.0.0.1:3000/temp/los%20angeles/california
+   http://127.0.0.1:3000/temp/new%20york%20city/new%20york
+   // %20 = ' ' (spacebar)
+   ```
 
 ---
 
-## ❔ Questions
+## Questions? Open an Issue
 
 If you have any question, make a new issue on GitHub repository, and I will to get back to you as soon as possible.
 
