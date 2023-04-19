@@ -5,6 +5,9 @@ Welcome to a great express.js app, by reading `weather.js` will give you a bette
 This instruction is for both `npm` OR `yarn` users; it is your own choice to use what you're most comfortable with. 
 But you can't use both at once! If you want to switch, just delete your `*.lock` in root folder and it will be regenereated on installation.
 
+# Important!
+Before installing & running this project. You need to replace your API key to API_KEY_HERE in weather.js, which is free up to 1000 requests a day.
+
 #  1. Sign up for API 📦
 1. The very first thing you need to do is sign up (free) for Weather API at https://openweathermap.org/api because **it will take few hours to start working**.
 2. I chose "Pay as you call"; it's for free on first 1000 API requests a day.
