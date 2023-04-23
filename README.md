@@ -87,7 +87,7 @@ curl http://127.0.0.1:3000/temp/los%20angeles/california
 
 # Troubleshooting:
 
-### 1. My city or state have a space.
+### 1. My city or state have a space and it doesn't work!
 Make sure you do not use regular spacebar in an URL, otherwise it will return with an error.
 
 `%20` replaces spacebar in URL, otherwise it won't work.
